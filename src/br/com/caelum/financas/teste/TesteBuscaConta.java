@@ -16,7 +16,11 @@ public class TesteBuscaConta {
 		
 		System.out.println("O titular da conta e: " + conta.getTitular());
 		
+		conta.setTitular("Eduardo");
+		
 		em.getTransaction().commit();
+		
+		System.out.println("O titular da conta e: " + conta.getTitular());
 		
 		em.close();
 		

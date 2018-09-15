@@ -10,7 +10,7 @@
 		
 		<!-- Aqui são listadas todas as entidades -->
 		<class>br.com.caelum.financas.model.Conta</class>
-		
+		<class>br.com.caelum.financas.model.Movimentacao</class>
 		<properties>
 			<!-- Propriedades JDBC -->
 			<property name="javax.persistence.jdbc.driver"
@@ -18,7 +18,7 @@
 			<property name="javax.persistence.jdbc.url"
 				value="jdbc:mysql://localhost/financas" />
 			<property name="javax.persistence.jdbc.user" value="root" />
-			<property name="javax.persistence.jdbc.password" value="123456789" />
+			<property name="javax.persistence.jdbc.password" value="root" />
 			<!-- Configurações específicas do Hibernate -->
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.MySQL5InnoDBDialect" />
